@@ -2,10 +2,11 @@
 Streamlit all the things
 """
 
-def main():
-    pass
+import streamlit
 
 
-if __name__ == "__main__":
-    main()
-
+streamlit.title("Snowflake Badge 2 - Healthy Diner")
+streamlit.header("Breakfast Menu")
+streamlit.text("Omega 3 & Blueberry Oatmeal")
+streamlit.text("Kale, Spinach & Rocket Smoothie")
+streamlit.text("Hard-Boiled Free-Range Egg")
